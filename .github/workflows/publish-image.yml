@@ -10,7 +10,7 @@ on:
       digest:
         description: "The OCI image digest. The image digest of the form '<algorithm>:<digest>' (e.g. 'sha256:abcdef...')"
         type: string
-        default: "sha256:20d4e6391b1e139c08d91ca4fc3309f53156f376d90cbd6ad29ee69458b74c7f"
+        default: "sha256:docker.io/70801476/oss-na24-slsa-workshop-project1-echo-server@sha256:20d4e6391b1e139c08d91ca4fc3309f53156f376d90cbd6ad29ee69458b74c7f"
       environment:
         type: choice
         description: Environment to use
